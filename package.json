@@ -9,18 +9,20 @@
     "@testing-library/user-event": "^12.8.3",
     "autoprefixer": "^10.4.0",
     "bootstrap": "^5.1.3",
+    "concurrently": "^6.4.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "sass": "^1.43.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "compile:sass": "sass --watch scss:src/rassets/css",
+    "compile:sass": "sass --watch scss:src/assets/css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run compile:sass\" \"npm run start\" "
   },
   "eslintConfig": {
     "extends": [

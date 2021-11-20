@@ -1,6 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
-import "./assets/css/style.css"
+import './App.scss';
 
 function App() {
   return (
@@ -345,6 +344,8 @@ function App() {
         </div>
     </div>
     </div>
+    
+
 </div>
   );
 }
