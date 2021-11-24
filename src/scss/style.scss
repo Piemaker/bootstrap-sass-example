@@ -2,14 +2,16 @@
 @import "/node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 @import "/node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "/node_modules//glightbox//dist//css/glightbox.min.css";
 
 @import "custom";
 
 //IMPORT COMPONENTS
 @import "components/mixins";
 @import "components/animations";
-@import "components/buttons";
 @import "components/typography";
+@import "components/buttons";
+
 
 //IMPORT SECTIONS
 @import "sections/companies";

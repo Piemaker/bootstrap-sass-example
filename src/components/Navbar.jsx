@@ -3,7 +3,7 @@ import Logo from "../assets/pictures/logo.png"
 
 export default function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark menu">
+      <nav className="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={Logo} alt="Logo" />

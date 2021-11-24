@@ -75,5 +75,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    2. install jquery
    3. install @popperjs/core (as of bootstrap 5)
    4. Include bootstrap in index.js
+3. Notes about glightbox
+   1. You have to use useEffect to ensure that the video is loaded AFTER the DOM is ready,otherwise the video won't load.
+   2. You can use import GLightbox from 'glightbox'; directly to import.
+   3. Don't forget to include the CSS and the JS files
 
 
