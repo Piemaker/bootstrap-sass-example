@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Notes about this project
+1. Bootstrap relies on jQuery to run particular user interface components. And jQuery manipulates the DOM directly, which contradicts the declarative approach of React.
+2. To enable vanilla bootstrap you have to do the following
+   1. Install bootstrap
+   2. install jquery
+   3. install @popperjs/core (as of bootstrap 5)
+   4. Include bootstrap in index.js
+
+

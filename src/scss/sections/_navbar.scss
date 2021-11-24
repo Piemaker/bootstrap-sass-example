@@ -1,0 +1,9 @@
+.menu{
+    @include gradient;
+}
+a{
+    color: $white !important;
+    text-transform: capitalize;
+    padding: 0.007rem;
+    font-weight: 600;
+}

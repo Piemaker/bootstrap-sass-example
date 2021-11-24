@@ -1,0 +1,24 @@
+
+
+.btn-rounded{
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
+    padding: 1rem 0.25rem 1rem 1.5rem;
+    border: none;
+    font-weight: 500;
+    
+
+    &:hover{
+     @include gradient;
+     color: $white;
+}
+span{
+    border-radius: 50%;
+    background: $primary;
+    padding: 0.6rem;
+    color: $white;
+    margin-left: 6px;
+    margin-right: none;
+}
+}
