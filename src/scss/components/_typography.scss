@@ -18,7 +18,38 @@
         margin-top: 1.2rem;
         font-family: 'Roboto', sans-serif;
 
+         @include media-breakpoint-down(sm){
+        font-size: 1rem;
+        display: inline-block;
     }
 
+    }
+   
+
     
+}
+//HEADING LINE
+.heading-line{
+    position: relative;
+&::before,&::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+&::before{
+    width: 10rem;
+    height: 0.125rem;
+    display: block;
+    background-color: $primary;
+    bottom:-0.5rem;
+
+}
+&::after{
+    width: 5rem;
+    height: 0.25rem;    
+    bottom:-0.75rem;
+    display: block;
+    background-color: $primary;
+}
 }

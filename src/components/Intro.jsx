@@ -13,6 +13,7 @@ export default function Intro() {
             type: "video",
             source: "youtube", //vimeo, youtube or local
             width: 900,
+            autoplayVideos: true,
           })
         );
     },[])
