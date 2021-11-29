@@ -1,0 +1,20 @@
+.our-services{
+    &__description{
+ @include media-breakpoint-up(md){
+    p{
+        font-size: 1.25rem;
+    }
+ }
+
+    }
+    &__service{
+@include media-breakpoint-up(md){
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+ }
+    }
+}

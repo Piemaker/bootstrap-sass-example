@@ -53,3 +53,23 @@
     background-color: $primary;
 }
 }
+.display-3{
+        font-family: 'Spectral', serif;
+
+}
+.custom-border{
+    border-right: 3px solid $gray-300;
+    height: 100%;
+    
+ @include media-breakpoint-down(md){
+    border-right: none;
+    border-bottom: 3px solid $gray-300;
+ }
+
+}
+.display-7{
+        font-family: 'Spectral', serif;
+    background:linear-gradient(to right, $primary, $secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
