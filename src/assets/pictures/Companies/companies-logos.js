@@ -5,4 +5,5 @@ import facebook from "./facebook-logo.png";
 import google from "./google-logo.png";
 import microsoft from "./microsoft-logo.png";
 
-export default  [{"amazon":amazon}, {"apple":apple}, {"coca-cola":cola} ,{"facebook":facebook} ,{"google":google}, {"microsoft":microsoft}];
+const logos = [{"amazon":amazon}, {"apple":apple}, {"coca-cola":cola} ,{"facebook":facebook} ,{"google":google}, {"microsoft":microsoft}]; 
+export default logos;

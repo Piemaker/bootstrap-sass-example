@@ -27,15 +27,30 @@ export default function Navbar() {
               <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
-              <a className="nav-link" href="#">
-                Features
+              <a className="nav-link" href="#companies">
+                Companies
               </a>
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="#services">
+                Services
               </a>
-              <a className="nav-link disabled">Disabled</a>
+              <a className="nav-link active" href="#testimonials">
+                testimonials
+              </a>
+              <a className="nav-link active" href="#faq">
+                FAQ
+              </a>
+              <a className="nav-link active" href="#portfolio">
+                portfolio
+              </a>
+              <a className="nav-link active" href="#gettingStarted">
+                getting started
+              </a>
+
               <button type="button" className="rounded-pill btn-rounded">
-                +02 12345678 <span><i className= "fas fa-phone-alt"></i></span>
+                +02 12345678{" "}
+                <span>
+                  <i className="fas fa-phone-alt"></i>
+                </span>
               </button>
             </div>
           </div>
