@@ -47,7 +47,7 @@ export default function Services() {
               <button className="rounded-pill btn-rounded">
                 Learn More
                 <span>
-                  <i className="fas fa-arrow-right text-primary"></i>
+                  <i className="fas fa-arrow-right"></i>
                 </span>
               </button>
             </div>

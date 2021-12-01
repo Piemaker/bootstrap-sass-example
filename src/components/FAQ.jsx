@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function FAQ() {
     return (
-      <section className="container" id="faq">
-        <h1 className="display-3 fw-bold  text-center">FAQ?</h1>
+      <section className="faq" id="faq">
+          <div className="container">
+<h1 className="display-3 fw-bold  text-center">FAQ?</h1>
         <div className="heading-line mb-5"></div>
         <p className="text-center fw-light">Here are what we are asked most</p>
         <div className="accordion mb-5" id="accordionExample">
@@ -117,6 +118,8 @@ export default function FAQ() {
             </div>
           </div>
         </div>
+          </div>
+        
       </section>
     );
 }
