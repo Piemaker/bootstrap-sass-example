@@ -5,6 +5,7 @@ import Intro from './components/Intro.jsx';
 import Companies from './components/Companies';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import FAQ from "./components/FAQ";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
    <Companies></Companies>
    <Services></Services>
    <Testimonials></Testimonials>
+   <FAQ></FAQ>
 </div>
   );
 }
