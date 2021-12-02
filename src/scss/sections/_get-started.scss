@@ -1,0 +1,32 @@
+.get-started{
+    padding: 3rem 0;
+    background-color: $gray-200;
+
+    &__content{
+       .gradient-bg{
+           @include gradient;
+           p{
+               font-size: 1rem;
+           }
+           ul{
+               list-style: none;               
+               -webkit-padding-start: 0;    
+               i{
+                   padding-right: 0.5rem;
+               }
+           
+        }   
+       }
+    }
+    .btn-submit{
+        @include gradient;
+        padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+        border-radius: 1rem;
+        border: none;
+        color: $white;
+        i{
+                   padding-right: 0.5rem;
+               }
+    }
+    
+}

@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import FAQ from "./components/FAQ";
 import Portfolio from "./components/Portfolio";
+import GetStarted from "./components/GetStarted";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
    <Testimonials></Testimonials>
    <FAQ></FAQ>
    <Portfolio></Portfolio>
+   <GetStarted></GetStarted>
 </div>
   );
 }

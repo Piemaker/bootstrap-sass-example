@@ -42,8 +42,8 @@ export default function Navbar() {
               <a className="nav-link active" href="#portfolio">
                 portfolio
               </a>
-              <a className="nav-link active" href="#gettingStarted">
-                getting started
+              <a className="nav-link active" href="#getStarted">
+                get started
               </a>
 
               <button type="button" className="rounded-pill btn-rounded">
