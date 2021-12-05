@@ -5,7 +5,10 @@
         height: 5rem;
         padding: 0.2rem;
         text-align: center; 
-        
+     
+        &__logo-box{
+            width: 100%;
+        }
     }
     img{
         height: 100%;

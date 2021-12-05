@@ -1,10 +1,9 @@
 const generatePortfolio = (data)=>{
    return data.map(item =>{
         const {id, url, type} = item;
-        console.log(item)
         return (
-          <div key={id} className="col-md-5 col-lg-3 shadow m-2 p-0 ">
-            <div className="portfolio-box">
+          <div key={id} className="col-md-6 col-lg-4 p-2 ">
+            <div className="portfolio-box shadow">
               <img
                 src={url}
                 alt={type}

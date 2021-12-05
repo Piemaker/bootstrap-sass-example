@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#home">
             <img src={Logo} alt="Logo" />
           </a>
           <button
@@ -24,7 +24,7 @@ export default function Navbar() {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav align-items-center">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#home">
                 Home
               </a>
               <a className="nav-link" href="#companies">

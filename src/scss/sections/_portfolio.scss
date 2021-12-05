@@ -1,11 +1,13 @@
 .portfolio{
   
     &-box{
-        border-top: solid 0.5rem $primary;
         position: relative;
+        border-top: solid 0.5rem $primary;
+        margin: auto;
         width: 100%;
         img{
             width: 100%;
+
             object-fit: cover;
         }
          &:hover{

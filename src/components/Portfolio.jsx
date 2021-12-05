@@ -42,7 +42,7 @@ const handleClick = (e)=>{
         </div>
         {/* PORTFOLIO PROJECTS SECTION */}
         <div className="container mt-3">
-          <div className="row justify-content-center">{generatePortfolio(portfolio)}</div>
+          <div className="row justify-content-center gy-1">{generatePortfolio(portfolio)}</div>
         </div>
       </section>
     );

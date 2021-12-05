@@ -38,16 +38,15 @@ export default function Intro() {
             <div className="col-md-6 intros">
               <div className="video-box">
                 <img className="img-fluid" src={art} alt="Video illustration" />
-                <a
-                  href="#"
-                  className="glightbox position-absolute top-50 start-50 translate-middle"
+                <button
+                  className=" glightbox position-absolute top-50 start-50 translate-middle"
                 >
                   <span>
                     <i className="fas fa-play-circle"></i>
                   </span>
                   <span className="border-animation border-animation--border--1"></span>
                   <span className="border-animation border-animation--border--2"></span>
-                </a>
+                </button>
               </div>
             </div>
           </div>

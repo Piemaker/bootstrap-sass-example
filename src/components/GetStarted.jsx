@@ -41,7 +41,7 @@ export default function GetStarted() {
             <div className="col-md-6 shadow p-5">
               <h3 className="fw-bold display-7">Reach Us!</h3>
               <form action="#">
-                <div class="mb-3">
+                <div className="mb-3">
                   <div className="row">
                     <div className="col-md-6">
                       <input
@@ -73,8 +73,8 @@ export default function GetStarted() {
                     placeholder="Message"
                   ></textarea>
                 </div>
-                <div class="d-grid gap-2 col-12 mx-auto">
-                  <button class="btn btn-submit" type="submit">
+                <div className="d-grid gap-2 col-12 mx-auto">
+                  <button className="btn btn-submit" type="submit">
                     <span>
                       <i className="fas fa-paper-plane"></i>Deliver!
                     </span>
