@@ -23,7 +23,7 @@
   "scripts": {
     "compile:sass": "sass --watch scss:src/assets/css",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run compile:sass\" \"npm run start\" "
