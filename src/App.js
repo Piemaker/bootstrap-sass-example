@@ -8,6 +8,8 @@ import Testimonials from './components/Testimonials';
 import FAQ from "./components/FAQ";
 import Portfolio from "./components/Portfolio";
 import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 function App() {
   return (
     <div>
@@ -19,6 +21,8 @@ function App() {
    <FAQ></FAQ>
    <Portfolio></Portfolio>
    <GetStarted></GetStarted>
+   <Footer></Footer>
+   <BackToTop></BackToTop>
 </div>
   );
 }

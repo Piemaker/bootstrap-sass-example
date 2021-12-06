@@ -53,6 +53,20 @@
     background-color: $primary;
 }
 }
+.single-line{
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 7rem;
+    height: 0.125rem;
+    display: block;
+    background-color: $gray-600;
+    }
+}
 .display-3{
         font-family: 'Spectral', serif;
 
@@ -72,4 +86,12 @@
     background:linear-gradient(to right, $primary, $secondary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.footer-font{  
+        font-size: 1.15rem;
+        font-family: 'Spectral', serif;
+        font-weight: 600;
+        @include media-breakpoint-between(sm,lg){
+        font-size: 0.8rem;
+ }
 }
